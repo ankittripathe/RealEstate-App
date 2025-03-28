@@ -1,15 +1,12 @@
-import React from 'react'
-import Navbar from './Components/Navbar'
+import React from "react";
+import Header from "./Components/Header";
 
 function App() {
   return (
     <div>
-      <Navbar/>
+      <Header />
     </div>
-  )
+  );
 }
 
-export default App
-
-
-
+export default App;
