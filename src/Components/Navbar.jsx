@@ -11,7 +11,7 @@ const Navbar = () => {
       document.body.style.overflow = 'auto'
     }
     return ()=>{
-       document.body.style.overflow = 'auto'
+       document.body.style.overflow = 'auto' // cleanup function
     }
   },[showMobileMenu])
 
