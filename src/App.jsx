@@ -3,7 +3,7 @@ import Header from "./Components/Header";
 
 function App() {
   return (
-    <div>
+    <div className="w-full overflow-hidden" >
       <Header />
     </div>
   );
