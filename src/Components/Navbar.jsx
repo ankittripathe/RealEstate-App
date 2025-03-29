@@ -15,19 +15,27 @@ const Navbar = () => {
           <a href="#Testimonials" className="cursor-pointer hover:text-gray-400" >Testimonials</a>
         </ul>
         <button className="hidden md:block bg-white px-8 py-2 rounded-full">Sign up</button>
-        <img src={assetsCollection.menu_icon} alt="MenuIcon" className="md:hidden w-7"/>
+        <img
+        onClick={()=>setShowMobileMenu(true)}
+         src={assetsCollection.menu_icon} 
+         alt="MenuIcon" className="md:hidden w-7"/>
       </div>
 
       {/* ------ mobile-menu ------ */}
-      <div className={`md:hidden fixed w-full right-0 top-0 bottom-0 bg-white transition-all cursor-pointer`}>
+      <div className={`md:hidden ${showMobileMenu ? " fixed w-full h-screen" : "hidden"} top-0 right-0 bottom-0 bg-white transition-all cursor-pointer `}>  
+
         <div className="flex justify-end pt-6 pr-6">
-          <img src={assetsCollection.cross_icon} className="w-6 cursor-pointer" alt="Icon"/>
+          <img 
+          onClick={()=>setShowMobileMenu(false)}
+          src={assetsCollection.cross_icon}
+          className="w-6 cursor-pointer"
+          alt="Icon"/>
         </div>
-        <ul className="flex flex-col items-center gap-3 mt-5 px-5 text-2xl font-medium">
-          <a href="#Header" className="px-4 py-2 rounded-full inline-block">Home</a>
-          <a href="#About" className="px-4 py-2 rounded-full inline-block">About</a>
-          <a href="#Projects" className="px-4 py-2 rounded-full inline-block bg-red-300">Projects</a>
-          <a href="#Testimonials" className="px-4 py-2 rounded-full inline-block">Testimonials</a>
+        <ul className="flex flex-col items-center gap-6 mt-5 px-5 text-3xl font-medium">
+          <a href="#Header" className="px-9 py-2 rounded-full inline-block hover:bg-emerald-700">Home</a>
+          <a href="#About" className="px-9 py-2 rounded-full inline-block hover:bg-emerald-700">About</a>
+          <a href="#Projects" className="px-9 py-2 rounded-full inline-block hover:bg-emerald-700">Projects</a>
+          <a href="#Testimonials" className="px-9 py-2 rounded-full inline-block hover:bg-emerald-700">Testimonials</a>
         </ul>
       </div>
     </div>
