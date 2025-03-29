@@ -1,8 +1,19 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { assetsCollection } from "../assets/assets";
 
 const Navbar = () => {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
+
+  useEffect(()=>{
+    if(showMobileMenu){
+      document.body.style.overflow = 'hidden'
+    } else {
+      document.body.style.overflow = 'auto'
+    }
+    return ()=>{
+       document.body.style.overflow = 'auto'
+    }
+  },[showMobileMenu])
 
   return (
     <div className="absolute top-0 left-0 w-full z-10">
@@ -32,10 +43,10 @@ const Navbar = () => {
           alt="Icon"/>
         </div>
         <ul className="flex flex-col items-center gap-6 mt-5 px-5 text-3xl font-medium">
-          <a href="#Header" className="px-9 py-2 rounded-full inline-block hover:bg-emerald-700">Home</a>
-          <a href="#About" className="px-9 py-2 rounded-full inline-block hover:bg-emerald-700">About</a>
-          <a href="#Projects" className="px-9 py-2 rounded-full inline-block hover:bg-emerald-700">Projects</a>
-          <a href="#Testimonials" className="px-9 py-2 rounded-full inline-block hover:bg-emerald-700">Testimonials</a>
+          <a href="#Header" className="px-9 py-2 rounded-full inline-block hover:bg-emerald-700 transition duration-100 ease-in-out">Home</a>
+          <a href="#About" className="px-9 py-2 rounded-full inline-block hover:bg-emerald-700 transition duration-100 ease-in-out">About</a>
+          <a href="#Projects" className="px-9 py-2 rounded-full inline-block hover:bg-emerald-700 transition duration-100 ease-in-out">Projects</a>
+          <a href="#Testimonials" className="px-9 py-2 rounded-full inline-block hover:bg-emerald-700 transition duration-100 ease-in-out">Testimonials</a>
         </ul>
       </div>
     </div>
