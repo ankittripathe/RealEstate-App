@@ -2,7 +2,8 @@ import React, { useEffect, useState } from "react";
 import { assetsCollection } from "../assets/assets";
 
 const Navbar = () => {
-  const [showMobileMenu, setShowMobileMenu] = useState(false);
+  const [showMobileMenu, setShowMobileMenu] = useState(false);  // toogle
+
 
   useEffect(()=>{
     if(showMobileMenu){
@@ -10,8 +11,9 @@ const Navbar = () => {
     } else {
       document.body.style.overflow = 'auto'
     }
+    // Cleanup function to restore scrolling behavior
     return ()=>{
-       document.body.style.overflow = 'auto' // cleanup function
+       document.body.style.overflow = 'auto'
     }
   },[showMobileMenu])
 
