@@ -39,3 +39,9 @@ When the menu is open, scrolling is disabled (overflow: hidden).
 When the menu is closed, scrolling is enabled (overflow: auto).
 Cleanup function prevents unexpected behavior during re-renders.
 
+# Step10: Apply onclick in anchor tag as well
+onClick={() => setShowMobileMenu(false)} 
+
+# Step11: Create About,jsx
+
+
