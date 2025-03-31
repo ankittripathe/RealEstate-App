@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import { assetsCollection, projectsData } from "../assets/assets";
 
 const Project = () => {
+  const [currentIndex, setCurrentIndex] = useState(0)
+  const [cardsToShow, setCardsToShow] = useState(1)
+
   return (
     <div
       className=" container mx-auto py-4 px-6 md:px-20 lg:px-32 my-16 w-full overflow-hidden"
