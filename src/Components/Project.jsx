@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { assetsCollection, projectsData } from "../assets/assets";
 
 const Project = () => {
-  const [currentIndex, setCurrentIndex] = useState(0)
-  const [cardsToShow, setCardsToShow] = useState(1)
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [cardsToShow, setCardsToShow] = useState(1);
 
   return (
     <div
@@ -43,18 +43,25 @@ const Project = () => {
           {projectsData.map((project, index) => {
             return (
               <>
-                <div key={index} className="relative flex-shrink-0 w-full sm:w-1/4">
-                  <img src={project.image} alt={project.title} className="w-full h-auto mb-14"/>
-                <div className="absolute left-0 right-0 bottom-5 flex justify-center">
-                  <div className="inline-block bg-white w-3/4 px-4 py-1 shadow-md">
-                   <h2 className="text-xl font-semibold text-gray-800">
-                    {project.title}
-                   </h2>
-                   <p className="text-gray-500 text-sm">
-                    {project.price} <span>{project.location}</span>
-                   </p>
+                <div
+                  key={index}
+                  className="relative flex-shrink-0 w-full sm:w-1/4"
+                >
+                  <img
+                    src={project.image}
+                    alt={project.title}
+                    className="w-full h-auto mb-14"
+                  />
+                  <div className="absolute left-0 right-0 bottom-5 flex justify-center">
+                    <div className="inline-block bg-white w-3/4 px-4 py-1 shadow-md">
+                      <h2 className="text-xl font-semibold text-gray-800">
+                        {project.title}
+                      </h2>
+                      <p className="text-gray-500 text-sm">
+                        {project.price} <span>{project.location}</span>
+                      </p>
+                    </div>
                   </div>
-                </div>
                 </div>
               </>
             );
