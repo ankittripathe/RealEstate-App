@@ -4,10 +4,12 @@ import About from "./Components/About";
 import Project from "./Components/Project";
 import Testimonials from "./Components/Testimonials";
 import Contact from "./Components/Contact";
+import { ToastContainer } from "react-toastify";
 
 function App() {
   return (
     <div className="w-full overflow-hidden">
+      <ToastContainer />
       <Header />
       <About />
       <Project />
