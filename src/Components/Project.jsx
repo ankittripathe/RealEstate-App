@@ -42,7 +42,6 @@ const Project = () => {
         <div className="flex gap-6 transition-transform duration-500 ease-in-out">
           {projectsData.map((project, index) => {
             return (
-              <>
                 <div
                   key={index}
                   className="relative flex-shrink-0 w-full sm:w-1/4"
@@ -52,6 +51,7 @@ const Project = () => {
                     alt={project.title}
                     className="w-full h-auto mb-14"
                   />
+
                   <div className="absolute left-0 right-0 bottom-5 flex justify-center">
                     <div className="inline-block bg-white w-3/4 px-4 py-1 shadow-md">
                       <h2 className="text-xl font-semibold text-gray-800">
@@ -63,7 +63,6 @@ const Project = () => {
                     </div>
                   </div>
                 </div>
-              </>
             );
           })}
         </div>

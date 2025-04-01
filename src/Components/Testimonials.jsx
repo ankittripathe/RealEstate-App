@@ -1,8 +1,6 @@
 import React from "react";
-import { assetsCollection, testimonialsData } from "../assets/assets";
-import star_icon from '../assets/star_icon.svg'
-
-
+import { testimonialsData } from "../assets/assets";
+import star_icon from "../assets/star_icon.svg";
 
 const Testimonials = () => {
   return (
@@ -20,19 +18,24 @@ const Testimonials = () => {
         Real Stories from Those Who Found Home With Us
       </p>
 
-      {/* <div className="flex flex-wrap justify-center gap-8 ">
+      <div className="flex flex-wrap justify-center gap-8 ">
         {testimonialsData.map((testimonial, index) => {
           return (
-            <>
-            <div key={index} className="max-w-[340px] border shadow-lg rounded px-8 py-12 text-center">
-            <img src={testimonial.image} alt={testimonial.title} className="w-20 h-20 rounded-full mx-auto mb-4"/>
-          </div>
-          <h2>{testimonial.name}</h2>
-          <p>{testimonial.title}</p>
+            <div
+              key={index}
+              className="max-w-[340px] border shadow-lg rounded px-8 py-12 text-center"
+            >
+              <img
+                src={testimonial.image}
+                alt={testimonial.title}
+                className="w-20 h-20 rounded-full mx-auto mb-4"
+              />
+              <h2 className="text-lg font-semibold">{testimonial.name}</h2>
+              <p className="text-gray-600">{testimonial.title}</p>
+            </div>
           )
-          </>
-     </div> */}
-
+        })}
+      </div>
     </div>
   );
 };
