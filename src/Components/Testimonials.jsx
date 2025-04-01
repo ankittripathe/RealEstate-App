@@ -1,5 +1,5 @@
 import React from "react";
-import { testimonialsData } from "../assets/assets";
+import { assetsCollection, testimonialsData } from "../assets/assets";
 import star_icon from "../assets/star_icon.svg";
 
 const Testimonials = () => {
@@ -32,8 +32,19 @@ const Testimonials = () => {
               />
               <h2 className="text-lg font-semibold">{testimonial.name}</h2>
               <p className="text-gray-600">{testimonial.title}</p>
+
+              <div>
+                {Array.from({ length: testimonial.rating }, (item, index) => (
+                  <img
+                    key={index}
+                    src={star_icon}
+                    alt="Star Rating"
+                    className="inline-block w-5 h-5 mx-1"
+                  />
+                ))}
+              </div>
             </div>
-          )
+          );
         })}
       </div>
     </div>
