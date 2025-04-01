@@ -14,7 +14,7 @@ const Testimonials = () => {
           Testimonials
         </span>
       </h1>
-      <p className="text-center text-gray-500 mb-12 max-w-80 mx-auto">
+      <p className="text-center text-gray-500 mb-8 max-w-80 mx-auto">
         Real Stories from Those Who Found Home With Us
       </p>
 
@@ -23,26 +23,32 @@ const Testimonials = () => {
           return (
             <div
               key={index}
-              className="max-w-[340px] border shadow-lg rounded px-8 py-12 text-center"
+              className="max-w-[280px] border-0 shadow-lg rounded px-6 py-6 text-center"
             >
               <img
                 src={testimonial.image}
-                alt={testimonial.title}
-                className="w-20 h-20 rounded-full mx-auto mb-4"
+                alt={testimonial.alt}
+                className="w-20 h-20 rounded-full mx-auto mb-2"
               />
-              <h2 className="text-lg font-semibold">{testimonial.name}</h2>
-              <p className="text-gray-600">{testimonial.title}</p>
+              <h2 className="text-xl text-gray-700 font-medium">
+                {testimonial.name}
+              </h2>
+              <p className="text-gray-500 mb-2 text-sm">{testimonial.title}</p>
 
-              <div>
-                {Array.from({ length: testimonial.rating }, (item, index) => (
-                  <img
-                    key={index}
-                    src={star_icon}
-                    alt="Star Rating"
-                    className="inline-block w-5 h-5 mx-1"
-                  />
-                ))}
+              {/* doubt */}
+              <div className="flex justify-center gap-1 text-red-500 mb-4">
+                {Array.from({ length: testimonial.rating }, (item, index) => {
+                  return (
+                    <img
+                      key={index}
+                      src={star_icon}
+                      alt="Star Rating"
+                      className="inline-block w-5 h-5 m-1"
+                    />
+                  );
+                })}
               </div>
+              <p className="text-gray-600 ">{testimonial.text}</p>
             </div>
           );
         })}

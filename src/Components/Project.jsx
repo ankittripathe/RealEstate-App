@@ -7,7 +7,7 @@ const Project = () => {
 
   return (
     <div
-      className=" container mx-auto py-4 px-6 md:px-20 lg:px-32 my-16 w-full overflow-hidden"
+      className="container mx-auto py-4 px-6 md:px-20 lg:px-28 my-16 w-full overflow-hidden"
       id="Projects"
     >
       <h1 className="text-2xl sm:text-4xl font-bold mb-2 text-center">
@@ -58,7 +58,7 @@ const Project = () => {
                         {project.title}
                       </h2>
                       <p className="text-gray-500 text-sm">
-                        {project.price} <span>{project.location}</span>
+                        {project.price} <span className="px-1">{project.location}</span>
                       </p>
                     </div>
                   </div>
