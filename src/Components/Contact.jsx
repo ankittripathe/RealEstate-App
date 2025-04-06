@@ -1,15 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import { toast } from "react-toastify";
 
 const Contact = () => {
   const [result, setResult] = React.useState("");
+ const [email, setEmail] = React.useState("");
 
   const onSubmitHandler = async (event) => {
     event.preventDefault();
     setResult("Sending....");
 
     const formData = new FormData(event.target);
-
     formData.append("access_key", "64c9ab25-04e4-4a55-b884-809052a9a080");
 
     const response = await fetch("https://api.web3forms.com/submit", {
@@ -22,7 +22,7 @@ const Contact = () => {
     if (data.success) {
       setResult("");
       // alert();
-      toast.success("Form Submitted Successfully")
+      toast.success("Form Submitted Successfully");
       event.target.reset();
     } else {
       console.log("Error", data);
