@@ -26,7 +26,7 @@ const Contact = () => {
       event.target.reset();
     } else {
       console.log("Error", data);
-      toast.error(data.message);
+      toast.error(data.message || "Something went wrong!");
       setResult("");
     }
   };
