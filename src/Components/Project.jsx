@@ -1,12 +1,18 @@
 import React, { useState } from "react";
 import { assetsCollection, projectsData } from "../assets/assets";
+import { motion } from "motion/react"
 
 const Project = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [cardsToShow, setCardsToShow] = useState(1);
 
   return (
-    <div
+    <motion.div
+    initial={{opacity: 0, x: -200}}
+    transition={{duration: 1}}
+    whileInView={{opacity: 1, x: 0}}
+    viewport={{once: true}}
+
       className="container mx-auto py-4 px-6 md:px-20 lg:px-28 my-16 w-full overflow-hidden"
       id="Projects"
     >
@@ -67,7 +73,7 @@ const Project = () => {
           })}
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
