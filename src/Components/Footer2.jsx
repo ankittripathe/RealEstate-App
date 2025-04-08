@@ -48,34 +48,33 @@ const Footer = () => {
       id="Footer"
     >
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-start">
-        <div className="w-full md:w-1/3 mb-6 md:mb-0">
+        <div className="w-full md:w-1/3 mb-6 md:mb-0   flex flex-col items-center md:items-start">
           <img src={logo} alt="logo" />
-          <p className="text-gray-400 mt-2  md:mt-3">
+          <p className="text-gray-400 mt-2 md:mt-3">
             Shaping the Future of Property
           </p>
         </div>
 
         <div className="w-full mb-6 md:w-1/5 md:mb-0">
-          <h3 className="text-white text-lg font-bold mb-1">Company</h3>
-          <ul className="flex flex-col gap-2 text-gray-400">
+          <h3 className="text-white text-lg font-bold mb-1  text-center md:text-start">
+            Company
+          </h3>
+          <ul className="flex flex-row justify-center md:justify-start md:flex-col gap-2 text-gray-400">
             <li>
               <a href="#Header" className="hover:text-white">
                 Home
               </a>
             </li>
-
             <li>
               <a href="#About" className="hover:text-white">
                 About
               </a>
             </li>
-
             <li>
               <a href="#Contact" className="hover:text-white">
                 Contact Us
               </a>
             </li>
-
             <li>
               <a href="#Privacy" className="hover:text-white">
                 Privacy Policy
@@ -85,10 +84,10 @@ const Footer = () => {
         </div>
 
         <div className="w-full md:w-1/3">
-          <h3 className="text-white text-lg font-bold mb-2 md:mb-3">
+          <h3 className="text-white text-lg font-bold mb-2 md:mb-3 text-center md:text-start">
             Subscribe to Our Newsletter
           </h3>
-          <p className="text-gray-400 mb-4 w-full md:max-w-90">
+          <p className="text-gray-400 mb-4 w-full md:max-w-90  text-center md:text-start">
             The latest news, articles, and resources, sent to your inbox weekly
           </p>
           <div className="flex gap-2">

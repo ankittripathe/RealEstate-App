@@ -88,7 +88,7 @@ export const testimonialsData = [
     image: profile_img_2,
     alt: "Portrait of Richard Nelson",
     rating: 4,
-    text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched.",
+    text:"They grasped my vision from the start and guided me to the ideal property. Their attention to detail and dedication to client satisfaction are exceptional."
   },
   {
     name: "James Washington",
@@ -96,7 +96,7 @@ export const testimonialsData = [
     image: profile_img_3,
     alt: "Portrait of James Washington",
     rating: 5,
-    text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched.",
+    text:"They quickly understood my needs and found the perfect property for me. Their professionalism and commitment to client satisfaction are truly outstanding."
   },
 ];
 

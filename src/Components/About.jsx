@@ -9,7 +9,6 @@ const About = () => {
       transition={{ duration: 1 }}
       whileInView={{ opacity: 1, x: 0 }}
       viewport={{ once: true }}
-      
       className=" flex flex-col items-center justify-center container mx-auto p-14 md:p20 lg:p-32 w-full overflow-hidden"
       id="About"
     >
@@ -54,9 +53,15 @@ const About = () => {
             </div>
           </div>
           <p className="my-6 max-w-lg">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem,
-            labore ex quis quas nulla nesciunt. Dolore consequuntur soluta
-            veniam sunt nostrum optio in, expedita dolores facilis rem
+            Passionate About Properties, Dedicated to Your Vision With over 10
+            years of excellence in the real estate industry, we take pride in
+            delivering exceptional results. We have successfully completed 12+
+            projects and delivered 20+ million square feet of property, with 25+
+            ongoing projects that reflect our commitment to quality and client
+            satisfaction. At our company, we believe in turning your dreams into
+            reality. Our dedicated team works closely with you to understand
+            your vision and ensure that every detail aligns with your goals. Let
+            us help you find your perfect property!
           </p>
           <button className="bg-blue-600 text-white rounded px-8 py-2">
             Learn More
