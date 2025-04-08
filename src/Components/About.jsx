@@ -18,15 +18,15 @@ const About = () => {
           Our Brand
         </span>
       </h1>
-      <p className="text-gray-500 max-w-80 text-center mb-8">
+      <p className="text-gray-500 lg:max-w-80 md:max-w-100 text-center mb-8">
         Passionate About Proprties, Dedicated to Your Vision
       </p>
 
       {/* 2nd main div */}
-      <div className="flex flex-col items-center md:flex-row md:items-start md:gap-20">
+      <div className="flex flex-col items-center  lg:flex-row lg:items-start md:gap-5 lg:gap-20">
         <img
           src={assetsCollection.brand_img}
-          className="w-full sm:w-1/2 max-w-lg"
+          className="w-full  max-w-lg md:mt-10 lg:mt-0"
           alt=""
         />
 
@@ -63,7 +63,7 @@ const About = () => {
             your vision and ensure that every detail aligns with your goals. Let
             us help you find your perfect property!
           </p>
-          <button className="bg-blue-600 text-white rounded px-8 py-2">
+          <button className="bg-blue-600 text-white rounded px-8 py-2 md:mx-auto lg:mx-0">
             Learn More
           </button>
         </div>

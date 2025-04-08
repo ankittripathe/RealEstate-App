@@ -20,7 +20,7 @@ const Testimonials = () => {
           Testimonials
         </span>
       </h1>
-      <p className="text-center text-gray-500 mb-8 max-w-80 mx-auto">
+      <p className="text-center text-gray-500 mb-8 max-w-80 lg:max-w-80 md:max-w-100 mx-auto">
         Real Stories from Those Who Found Home With Us
       </p>
 

@@ -46,7 +46,7 @@ const Contact = () => {
           With Us
         </span>
       </h1>
-      <p className="text-center text-gray-500 mb-8 max-w-80 mx-auto">
+      <p className="text-center text-gray-500 mb-8 lg:max-w-80 mx-auto">
         Ready to Make a Move? Let's Build Your Future Together
       </p>
 

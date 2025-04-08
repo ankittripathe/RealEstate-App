@@ -55,9 +55,11 @@ const Project = () => {
           Completed
         </span>
       </h1>
-      <p className="text-center text-gray-500 mb-8 max-w-80 mx-auto">
+      <p className="text-gray-500  lg:max-w-80 md:max-w-110 mx-auto text-center mb-8">
         Crafting Spaces, Building Legacies-Explore Our Portfolio
       </p>
+
+     
 
       {/* Slider buttons */}
       <div className="flex justify-end items-center mb-8">
