@@ -29,17 +29,20 @@ const Testimonials = () => {
           return (
             <div
               key={index}
-              className="max-w-[280px] border-0 shadow-lg rounded px-6 py-6 text-center"
+              className="max-w-[320px] border-0 shadow-lg rounded px-9 py-10 text-center"
             >
               <img
                 src={testimonial.image}
                 alt={testimonial.alt}
-                className="w-20 h-20 rounded-full mx-auto mb-2"
+                className="w-24 h-24 rounded-full mx-auto mb-3"
               />
               <h2 className="text-xl text-gray-700 font-medium">
                 {testimonial.name}
               </h2>
-              <p className="text-gray-500 mb-2 text-sm">{testimonial.title}</p>
+              
+              <p className="text-gray-500 mb-2 text-sm">
+                {testimonial.title}
+              </p>
 
               {/* doubt */}
               <div className="flex justify-center gap-1 text-red-500 mb-4">
