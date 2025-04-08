@@ -75,7 +75,7 @@ const Project = () => {
         <div
           className="flex gap-6 transition-transform duration-500 ease-in-out"
           style={{
-            transform: `translateX(-${(currentIndex * 100) / cardsToShow}%)`,
+            transform: `translateX(-${(currentIndex * 106) / cardsToShow}%)`,
           }}
         >
           {projectsData.map((project, index) => (
