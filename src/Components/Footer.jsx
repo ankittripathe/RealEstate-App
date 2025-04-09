@@ -1,9 +1,8 @@
 import React from "react";
-// import logo from "../assets/logo_dark.svg";
+import logo_dark from "../assets/logo_dark.svg";
 import { toast } from "react-toastify";
 import axios from "axios";
-// import logo_icon from "../assets/favicon.svg";
-import logo from "../assets/icon-dark.svg";
+
 
 const Footer = () => {
   const [email, setEmail] = React.useState("");
@@ -44,17 +43,15 @@ const Footer = () => {
   };
 
   return (
-    // main
     <div
       className="pt-10 px-4 md:px-12 lg:px-32 bg-gray-900 w-full overflow-hidden"
       id="Footer"
     >
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-start">
         <div className="w-full md:w-1/3 mb-6 md:mb-0">
-          {/* <img src={logo} alt="logo" /> */}
-
+        {/* logo */}
           <div className="flex gap-1.5 text-white">
-            <img src={logo} alt="Logo" />
+            <img src={logo_dark} alt="Logo" />
             <h1 className="text-3xl font-semibold">NexusHome</h1>
           </div>
 
@@ -118,7 +115,6 @@ const Footer = () => {
         </div>
       </div>
       {/* copyright */}
-
       <div className="border-t border-gray-700 py-4 mt-10 text-center text-gray-500">
         © 2025 AnkitTripathi.dev. All Rights Reserved.
       </div>
