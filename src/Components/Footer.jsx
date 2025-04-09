@@ -1,7 +1,9 @@
 import React from "react";
-import logo from "../assets/logo_dark.svg";
+// import logo from "../assets/logo_dark.svg";
 import { toast } from "react-toastify";
 import axios from "axios";
+// import logo_icon from "../assets/favicon.svg";
+import logo from "../assets/icon-dark.svg";
 
 const Footer = () => {
   const [email, setEmail] = React.useState("");
@@ -49,7 +51,13 @@ const Footer = () => {
     >
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-start">
         <div className="w-full md:w-1/3 mb-6 md:mb-0">
-          <img src={logo} alt="logo" />
+          {/* <img src={logo} alt="logo" /> */}
+
+          <div className="flex gap-1.5 text-white">
+            <img src={logo} alt="Logo" />
+            <h1 className="text-3xl font-semibold">NexusHome</h1>
+          </div>
+
           <p className="text-gray-400 mt-2 md:mt-3">
             Shaping the Future of Property
           </p>

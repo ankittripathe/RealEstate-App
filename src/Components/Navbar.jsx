@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { assetsCollection } from "../assets/assets";
+import logo_icon from "../assets/favicon.svg";
 
 const Navbar = () => {
   const [showMobileMenu, setShowMobileMenu] = useState(false); // toogle
@@ -19,7 +20,13 @@ const Navbar = () => {
   return (
     <div className="absolute top-0 left-0 z-10 w-full">
       <div className="container flex items-center justify-between px-6 py-4 mx-auto bg-transparent md:px-20 lg:px-32">
-        <img src={assetsCollection.logo} alt="Logo" />
+        {/* <img src={assetsCollection.logo} alt="Logo" /> */}
+
+        <div className="flex gap-1.5 text-white">
+          <img src={logo_icon} alt="Logo" />
+          <h1 className="text-3xl font-semibold">NexusHome</h1>
+        </div>
+
         <ul className="hidden text-white md:flex gap-7">
           <a href="#Header" className="cursor-pointer hover:text-gray-400">
             Home

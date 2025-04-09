@@ -5,10 +5,8 @@ import { motion } from "motion/react";
 const Header = () => {
   return (
     <div
-      className="flex items-center w-full min-h-screen mb-4 overflow-hidden bg-center  bg-cover"
+      className="flex items-center w-full min-h-screen mb-4 overflow-hidden bg-center bg-cover"
       style={{ backgroundImage: "url('/header_img.png')" }}
-      // style={{ backgroundImage: "url('/Header2.avif')" }}
-      // style={{ backgroundImage: "url('/Header3.avif')" }}
       id="Header"
     >
       <Navbar />
