@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { assetsCollection } from "../assets/assets";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [showMobileMenu, setShowMobileMenu] = useState(false); // toogle
@@ -29,9 +30,11 @@ const Navbar = () => {
           <a href="#Header" className="cursor-pointer hover:text-gray-400">
             Home
           </a>
+
           <a href="#About" className="cursor-pointer hover:text-gray-400">
             About
           </a>
+
           <a href="#Projects" className="cursor-pointer hover:text-gray-400">
             Projects
           </a>
@@ -42,6 +45,7 @@ const Navbar = () => {
             Testimonials
           </a>
         </ul>
+
         <button className="hidden px-8 py-2 bg-white rounded-full md:block">
           Sign up
         </button>

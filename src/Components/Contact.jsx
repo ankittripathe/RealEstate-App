@@ -32,11 +32,10 @@ const Contact = () => {
 
   return (
     <motion.div
-    initial={{ opacity: 0, x: -200 }}
-    transition={{ duration: 1 }}
-    whileInView={{ opacity: 1, x: 0 }}
-    viewport={{ once: true }}
-
+      initial={{ opacity: 0, x: -200 }}
+      transition={{ duration: 1 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      viewport={{ once: true }}
       className=" container mx-auto text-center px-6 py-20 lg:px-32 w-full overflow-hidden"
       id="Contact"
     >

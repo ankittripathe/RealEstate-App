@@ -59,8 +59,6 @@ const Project = () => {
         Crafting Spaces, Building Legacies-Explore Our Portfolio
       </p>
 
-     
-
       {/* Slider buttons */}
       <div className="flex justify-end items-center mb-8">
         <button onClick={prevProject} className="p-3 bg-gray-200 rounded mr-2">
@@ -81,7 +79,10 @@ const Project = () => {
           }}
         >
           {projectsData.map((project, index) => (
-            <div key={index} className="relative flex-shrink-0 w-full  md:w-1/2 lg:w-1/4">
+            <div
+              key={index}
+              className="relative flex-shrink-0 w-full  md:w-1/2 lg:w-1/4"
+            >
               <img
                 src={project.image}
                 alt={project.title}
