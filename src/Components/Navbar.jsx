@@ -27,28 +27,31 @@ const Navbar = () => {
         </div>
 
         <ul className="hidden text-white md:flex gap-7">
-          <a href="#Header" className="cursor-pointer hover:text-gray-400">
+          <Link to="/" className="cursor-pointer hover:text-gray-400">
             Home
-          </a>
+          </Link>
 
-          <a href="#About" className="cursor-pointer hover:text-gray-400">
+          <Link to="/about" className="cursor-pointer hover:text-gray-400">
             About
-          </a>
+          </Link>
 
-          <a href="#Projects" className="cursor-pointer hover:text-gray-400">
+          <Link to="/projects" className="cursor-pointer hover:text-gray-400">
             Projects
-          </a>
-          <a
-            href="#Testimonials"
+          </Link>
+
+          <Link
+            to="/testimonials"
             className="cursor-pointer hover:text-gray-400"
           >
             Testimonials
-          </a>
+          </Link>
         </ul>
 
-        <button className="hidden px-8 py-2 bg-white rounded-full md:block">
-          Sign up
-        </button>
+        <Link to="/login">
+          <button className="hidden px-8 py-2 bg-white rounded-full md:block">
+            Sign up
+          </button>
+        </Link>
         <img
           onClick={() => setShowMobileMenu(true)}
           src={assetsCollection.menu_icon}
@@ -70,37 +73,45 @@ const Navbar = () => {
           />
         </div>
         <ul className="flex flex-col items-center gap-6 px-5 mt-5 text-3xl font-medium">
-          <a
+          <Link
             onClick={() => setShowMobileMenu(false)}
-            href="#Header"
+            to="/"
             className="inline-block py-2 transition duration-100 ease-in-out rounded-full px-9 hover:bg-emerald-700"
           >
             Home
-          </a>
+          </Link>
 
-          <a
+          <Link
             onClick={() => setShowMobileMenu(false)}
-            href="#About"
+            to="/about"
             className="inline-block py-2 transition duration-100 ease-in-out rounded-full px-9 hover:bg-emerald-700"
           >
             About
-          </a>
+          </Link>
 
-          <a
+          <Link
             onClick={() => setShowMobileMenu(false)}
-            href="#Projects"
+            to="/projects"
             className="inline-block py-2 transition duration-100 ease-in-out rounded-full px-9 hover:bg-emerald-700"
           >
             Projects
-          </a>
+          </Link>
 
-          <a
+          <Link
             onClick={() => setShowMobileMenu(false)}
-            href="#Testimonials"
+            to="/testimonials"
             className="inline-block py-2 transition duration-100 ease-in-out rounded-full px-9 hover:bg-emerald-700"
           >
             Testimonials
-          </a>
+          </Link>
+
+          <Link
+            onClick={() => setShowMobileMenu(false)}
+            to="/login"
+            className="inline-block py-2 transition duration-100 ease-in-out rounded-full px-9 hover:bg-emerald-700"
+          >
+            Signup
+          </Link>
         </ul>
       </div>
     </div>

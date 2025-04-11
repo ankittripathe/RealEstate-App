@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 import { motion } from "motion/react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -21,16 +22,21 @@ const Header = () => {
         <h2 className="inline-block max-w-3xl pt-20 text-5xl font-semibold sm:text-6xl md:text-[82px]">
           Explore homes that fit your dreams
         </h2>
+
         <div className="mt-16 space-x-6">
-          <a href="#Projects" className="px-8 py-3 border border-white rounded">
+          <Link
+            to="/projects"
+            className="px-8 py-3 border border-white rounded"
+          >
             Projects
-          </a>
-          <a
-            href="#Contact"
+          </Link>
+
+          <Link
+            to="/contact"
             className="px-8 py-3 bg-blue-500 border border-white rounded"
           >
             Contact Us
-          </a>
+          </Link>
         </div>
       </motion.div>
     </div>

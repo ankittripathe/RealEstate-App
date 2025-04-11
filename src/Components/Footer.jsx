@@ -2,6 +2,7 @@ import React from "react";
 import logo_dark from "../assets/logo_dark.svg";
 import { toast } from "react-toastify";
 import axios from "axios";
+import {Link} from 'react-router-dom'
 
 const Footer = () => {
   const [email, setEmail] = React.useState("");
@@ -63,27 +64,27 @@ const Footer = () => {
           <h3 className="text-white text-lg font-bold mb-1">Company</h3>
           <ul className="flex flex-col gap-2 text-gray-400">
             <li>
-              <a href="#Header" className="hover:text-white">
+              <Link to="/" className="hover:text-white">
                 Home
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a href="#About" className="hover:text-white">
+              <Link to="/about" className="hover:text-white">
                 About
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a href="#Contact" className="hover:text-white">
+              <Link to="/contact" className="hover:text-white">
                 Contact Us
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a href="#Privacy" className="hover:text-white">
+              <Link to="/" className="hover:text-white">
                 Privacy Policy
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
