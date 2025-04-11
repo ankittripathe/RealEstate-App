@@ -17,7 +17,7 @@ const Header = () => {
         transition={{ duration: 1.5 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        className="container px-6 py-4 mx-auto text-center text-white md:px-20 lg:px-32"
+        className="container px-6 py-4 mx-auto text-center text-white md:px-20 lg:px-32 overflow-x-hidden"
       >
         <h2 className="inline-block max-w-3xl pt-20 text-5xl font-semibold sm:text-6xl md:text-[82px]">
           Explore homes that fit your dreams
