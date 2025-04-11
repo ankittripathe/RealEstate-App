@@ -33,6 +33,7 @@ If showMobileMenu is true, the mobile menu is shown; otherwise, it remains hidde
 <img onClick={() => setShowMobileMenu(false)} src={assetsCollection.cross_icon} alt="Close Icon" />
 • This closes the mobile menu.
 
+
 # Step 9: Used useEffect for Side Effects (Prevent Scrolling)
 • Implemented useEffect to prevent scrolling when the mobile menu is open:
 When the menu is open, scrolling is disabled (overflow: hidden).
@@ -42,7 +43,6 @@ Cleanup function prevents unexpected behavior during re-renders.
 # Step10: Apply onclick in anchor tag as well
 onClick={() => setShowMobileMenu(false)} 
 
-# Step11: Create About,jsx
 
 # form Web3Forms. : https://web3forms.com/#start
 Your Public Access Key is: 64c9ab25-04e4-4a55-b884-809052a9a080
