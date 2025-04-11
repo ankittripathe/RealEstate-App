@@ -19,7 +19,7 @@ const Navbar = () => {
 
   return (
     <div className="absolute top-0 left-0 z-10 w-full">
-      <div className="container flex items-center justify-between px-6 py-4 mx-auto bg-transparent md:px-20 lg:px-32">
+      <div className="container flex items-center justify-between px-6 py-4 mx-auto bg-transparent md:px-10 lg:px-32">
         {/* logo */}
         <div className="flex gap-1.5 text-white">
           <img src={assetsCollection.logo} alt="Logo" />
