@@ -90,6 +90,9 @@ While building NexusHome, I enhanced my understanding of:
 - npm or yarn
 
 # 🚀 How to Run the Project
+
+```bash
+
 1 Clone the repository
 git clone https://github.com/ankittripathe/NexusHome.git
 cd NexusHome
@@ -100,7 +103,7 @@ npm install
 3 Start the development server
 npm run dev
 
-```bash
+
 
 
 
