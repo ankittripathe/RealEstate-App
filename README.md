@@ -125,9 +125,3 @@ If you're passionate about frontend development, UI/UX, or React-based web apps 
 
 
 ---
-
-## 📄 License
-
-This project is open-source and available under the [MIT License](LICENSE).
-
----
