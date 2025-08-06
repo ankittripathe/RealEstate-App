@@ -102,3 +102,12 @@ npm install
 
 3 Start the development server
 npm run dev
+
+
+📄 License
+This project is open-source and available under the MIT License.
+
+
+---
+
+Let me know if you also want a downloadable version (`README.md` file) or want to include badges, deployment instructions (e.g., Netlify or Vercel), or a license file.
