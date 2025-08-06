@@ -93,14 +93,14 @@ While building NexusHome, I enhanced my understanding of:
 
 ```bash
 
-1 Clone the repository
-git clone https://github.com/ankittripathe/NexusHome.git
-cd NexusHome
+# 1. Clone the repository
+git clone https://github.com/ankittripathe/RealEstate-App.git
+cd RealEstate-App
 
-2 Install dependencies
+# 2. Install dependencies
 npm install
 
-3 Start the development server
+# 3. Start the development server
 npm run dev
 
 
@@ -118,4 +118,13 @@ This project is open-source and available under the MIT License.
 
 ---
 
-Let me know if you also want a downloadable version (`README.md` file) or want to include badges, deployment instructions (e.g., Netlify or Vercel), or a license file.
+
+---
+
+✅ **Optional Add-ons (Let me know if you want them):**
+- GitHub badges (e.g., deployment status, license, tech stack).
+- A `LICENSE` file.
+- A `CONTRIBUTING.md` if you plan to accept contributions.
+- A `vercel.json` config file if needed for deployment.
+
+Would you like me to generate a downloadable `README.md` file for this?
