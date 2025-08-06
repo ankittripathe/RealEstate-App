@@ -7,7 +7,7 @@
 ## 🚀 Live Demo
 
 🔗 [Live Demo](https://nexushome-realstate.vercel.app/)  
-📂 [GitHub Repository](https://github.com/ankittripathe/RealEstate-App)
+📂 [GitHub Repo](https://github.com/ankittripathe/RealEstate-App)
 
 ---
 
