@@ -1,52 +1,7 @@
-# 🏠 NexusHome - Real Estate Website
-A modern, fully responsive real estate website built using React JS and styled with Tailwind CSS. This project showcases real estate properties with interactive animations and smooth navigation.
 
 
-# ✨ Features
-🌆 Beautiful animated sections (Header, About, Projects, etc.)
-📱 Mobile-responsive navigation with hamburger menu
-📤 Contact form powered by Web3Forms
-🔔 Toast notifications using React Toastify
-🔄 Smooth page transitions using React Router
-⚙️ Modular file structure and reusable components
-🧭 Navigation using `React Router`
 
 
-# 🛠 Tech Stack
-- React JS
-- Tailwind CSS
-- Framer Motion
-- React Router
-- React Toastify
-- Web3Forms (for form submissions)
-
-# 📁 Folder Structure
-📦 src
-├── 📁 Components
-│   ├── About.jsx
-│   ├── Contact.jsx
-│   ├── Footer.jsx
-│   ├── Header.jsx
-│   ├── LoginSignup.jsx
-│   ├── Navbar.jsx
-│   ├── Project.jsx
-│   └── Testimonials.jsx
-│
-├── 📁 Pages
-│   ├── AboutPage.jsx
-│   ├── ContactPage.jsx
-│   ├── HomePage.jsx
-│   ├── LoginSignupPage.jsx
-│   ├── ProjectPage.jsx
-│   └── TestimonialPage.jsx
-│
-├── 📁 assets
-│   └── assets.js
-│
-├── App.jsx
-├── main.jsx
-├── index.css
-└── index.html
 
 # 🚀 How to Run the Project
 1 Clone the repository
@@ -65,7 +20,7 @@ npm install react-toastify
 
 
 
-# NexusHome 🏠
+# 🏠 NexusHome - Real Estate Website
 
 ✨ **NexusHome** is a modern, fully responsive real estate web application built with **React JS** and **Tailwind CSS**. It showcases elegant UI, smooth UX, and interactive animations, creating a seamless experience for users looking to explore real estate projects.
 
@@ -94,6 +49,36 @@ npm install react-toastify
 - **React Router DOM**
 - **React Toastify**
 - **Web3Forms**
+
+---
+
+# 📁 Folder Structure
+📦 src
+├── 📁 Components
+│   ├── About.jsx
+│   ├── Contact.jsx
+│   ├── Footer.jsx
+│   ├── Header.jsx
+│   ├── LoginSignup.jsx
+│   ├── Navbar.jsx
+│   ├── Project.jsx
+│   └── Testimonials.jsx
+│
+├── 📁 Pages
+│   ├── AboutPage.jsx
+│   ├── ContactPage.jsx
+│   ├── HomePage.jsx
+│   ├── LoginSignupPage.jsx
+│   ├── ProjectPage.jsx
+│   └── TestimonialPage.jsx
+│
+├── 📁 assets
+│   └── assets.js
+│
+├── App.jsx
+├── main.jsx
+├── index.css
+└── index.html
 
 ---
 
