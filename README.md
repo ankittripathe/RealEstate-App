@@ -1,33 +1,11 @@
-
-
-
-
-
-# 🚀 How to Run the Project
-1 Clone the repository
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
-
-2 Install dependencies
-npm install
-
-3 Start the development server
-npm run dev
-
-📦 Toastify
-Used for showing beautiful form submission notifications:
-npm install react-toastify
-
-
-
 # 🏠 NexusHome - Real Estate Website
 
 ✨ **NexusHome** is a modern, fully responsive real estate web application built with **React JS** and **Tailwind CSS**. It showcases elegant UI, smooth UX, and interactive animations, creating a seamless experience for users looking to explore real estate projects.
 
 ## 🚀 Live Demo
 
-🔗 [View Live Demo](https://lnkd.in/gtuc9RNs)  
-📂 [GitHub Repository](https://lnkd.in/gW4W9G84)
+🔗 [Live Demo](https://nexushome-realstate.vercel.app/)  
+📂 [GitHub Repository](https://github.com/ankittripathe/RealEstate-App)
 
 ---
 
@@ -111,10 +89,23 @@ While building NexusHome, I enhanced my understanding of:
 - Node.js (v14+)
 - npm or yarn
 
-### Installation
-
-```bash
+# 🚀 How to Run the Project
+1 Clone the repository
 git clone https://github.com/ankittripathe/NexusHome.git
 cd NexusHome
+
+2 Install dependencies
 npm install
-npm start
+
+3 Start the development server
+npm run dev
+
+```bash
+
+
+
+
+
+
+
+
