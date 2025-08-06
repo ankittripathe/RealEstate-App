@@ -81,7 +81,7 @@ While building NexusHome, I enhanced my understanding of:
 
 | Homepage | Projects | Contact |
 |----------|----------|---------|
-| ![Home](./screenshots/home.png) | ![Projects](./screenshots/projects.png) | ![Contact](./screenshots/contact.png) |
+| ![Home](./screenshots/home1.PNG) | ![Projects](./screenshots/projects.PNG) | ![Contact](./screenshots/contact.PNG) |
 
 > 📁 Ensure you have the actual screenshots in a `/screenshots` folder and update file paths if needed.
 
