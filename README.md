@@ -104,6 +104,14 @@ npm install
 npm run dev
 
 
+
+🤝 Let's Connect
+If you're passionate about frontend development, UI/UX, or React-based web apps — let’s connect and collaborate!
+
+🔗 LinkedIn
+💬 ankittripathe@gmail.com
+
+
 📄 License
 This project is open-source and available under the MIT License.
 
