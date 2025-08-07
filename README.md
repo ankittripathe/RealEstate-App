@@ -127,6 +127,4 @@ If you're passionate about frontend development, UI/UX, or React-based web apps 
 
 🔗 [Visit My Developer Portfolio](https://ankittripathi.vercel.app/)
 
-
-
 ---
