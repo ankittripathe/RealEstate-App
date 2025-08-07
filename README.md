@@ -60,9 +60,9 @@
 
 ## 📸 Screenshots
 
-| Homepage | Projects | Contact |
-|----------|----------|---------|
-| ![Home](./screenshots/home1.PNG) | ![Projects](./screenshots/projects.PNG) | ![Contact](./screenshots/contact.PNG) |
+| Home page | Login Page |
+|-----------|------------|
+| ![Home](./public/homepage.PNG) | ![Login](./public/loginpage.PNG) |
 
 ---
 
