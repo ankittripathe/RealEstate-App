@@ -56,18 +56,20 @@
 └── index.html
 ```
 
+---
+
+## 📸 Screenshots
+
+| Homepage | Projects | Contact |
+|----------|----------|---------|
+| ![Home](./screenshots/home1.PNG) | ![Projects](./screenshots/projects.PNG) | ![Contact](./screenshots/contact.PNG) |
+
+---
+
 ## 🚀 Live Demo
 
 🔗 [Live Demo](https://nexushome-realstate.vercel.app/)  
 📂 [GitHub Repo](https://github.com/ankittripathe/RealEstate-App)
-
-
-
-
-
----
-
-
 
 ---
 
@@ -80,14 +82,6 @@ While building NexusHome, I enhanced my understanding of:
 - Managing **client-side routing** using React Router DOM.
 - **Integrating third-party APIs** like Web3Forms for form submissions.
 - Providing **instant user feedback** through React Toastify.
-
----
-
-## 📸 Screenshots
-
-| Homepage | Projects | Contact |
-|----------|----------|---------|
-| ![Home](./screenshots/home1.PNG) | ![Projects](./screenshots/projects.PNG) | ![Contact](./screenshots/contact.PNG) |
 
 
 ---
