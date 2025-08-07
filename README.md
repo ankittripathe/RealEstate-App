@@ -14,6 +14,14 @@
 
 ---
 
+## 🛠️ Tech Stack
+
+- **React JS**
+- **Tailwind CSS**
+- **Framer Motion**
+- **React Router DOM**
+- **React Toastify**
+- **Web3Forms**
 
 ---
 
@@ -24,14 +32,7 @@
 
 
 
-## 🛠️ Tech Stack
 
-- **React JS**
-- **Tailwind CSS**
-- **Framer Motion**
-- **React Router DOM**
-- **React Toastify**
-- **Web3Forms**
 
 ---
 
