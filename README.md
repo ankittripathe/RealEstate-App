@@ -69,7 +69,6 @@
 | ![About](./public/aboutPage.PNG) | ![Project](./public/projectpage.PNG) |
 
 
-
 ---
 
 ## 🚀 Live Demo

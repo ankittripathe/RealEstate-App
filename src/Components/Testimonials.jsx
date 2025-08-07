@@ -1,4 +1,3 @@
-import React from "react";
 import { testimonialsData } from "../assets/assets";
 import star_icon from "../assets/star_icon.svg";
 import { motion } from "motion/react";

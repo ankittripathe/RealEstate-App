@@ -1,4 +1,3 @@
-import React from "react";
 import { assetsCollection } from "../assets/assets";
 import { motion } from "motion/react";
 
