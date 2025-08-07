@@ -64,6 +64,12 @@
 |-----------|------------|
 | ![Home](./public/homepage.PNG) | ![Login](./public/loginpage.PNG) |
 
+| About page | Project Page |
+|------------|--------------|
+| ![About](./public/aboutPage.PNG) | ![Project](./public/projectpage.PNG) |
+
+
+
 ---
 
 ## 🚀 Live Demo
