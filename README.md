@@ -25,17 +25,6 @@
 
 ---
 
-## 🚀 Live Demo
-
-🔗 [Live Demo](https://nexushome-realstate.vercel.app/)  
-📂 [GitHub Repo](https://github.com/ankittripathe/RealEstate-App)
-
-
-
-
-
----
-
 ## 📁 Folder Structure
 
 ```
@@ -66,6 +55,19 @@
 ├── index.css
 └── index.html
 ```
+
+## 🚀 Live Demo
+
+🔗 [Live Demo](https://nexushome-realstate.vercel.app/)  
+📂 [GitHub Repo](https://github.com/ankittripathe/RealEstate-App)
+
+
+
+
+
+---
+
+
 
 ---
 
