@@ -62,11 +62,11 @@
 
 | Home page | Login Page |
 |-----------|------------|
-| ![Home](./public/homepage.PNG) | ![Login](./public/loginpage.PNG) |
+| ![Home](./public/homePage.PNG) | ![Login](./public/loginPage.PNG) |
 
 | About page | Project Page |
 |------------|--------------|
-| ![About](./public/aboutPage.PNG) | ![Project](./public/projectpage.PNG) |
+| ![About](./public/aboutPage.PNG) | ![Project](./public/projectPage.PNG) |
 
 
 ---
