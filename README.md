@@ -4,13 +4,6 @@
 
 ---
 
-## 🚀 Live Demo
-
-🔗 [Live Demo](https://nexushome-realstate.vercel.app/)  
-📂 [GitHub Repo](https://github.com/ankittripathe/RealEstate-App)
-
----
-
 ## 🎯 Features
 
 - **🖼️ Animated Sections** – Smooth animations across Header, About, Projects, Testimonials & more using **Framer Motion**.
@@ -20,6 +13,16 @@
 - **🔔 Toast Notifications** – User-friendly alerts with **React Toastify**.
 
 ---
+
+
+---
+
+## 🚀 Live Demo
+
+🔗 [Live Demo](https://nexushome-realstate.vercel.app/)  
+📂 [GitHub Repo](https://github.com/ankittripathe/RealEstate-App)
+
+
 
 ## 🛠️ Tech Stack
 
