@@ -1,4 +1,3 @@
-import React from "react";
 import { Routes, Route } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 import Footer from "./Components/Footer";
@@ -9,10 +8,10 @@ import TestimonialPage from "./Pages/TestimonialPage";
 import ContactPage from "./Pages/ContactPage";
 import LoginSignupPage from "./Pages/LoginSignupPage";
 
-function App() {
+const App = () => {
   return (
     <div className="w-full overflow-hidden">
-      <ToastContainer />
+      <ToastContainer /> {/* Pop Notification */}
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
@@ -24,6 +23,6 @@ function App() {
       <Footer />
     </div>
   );
-}
+};
 
 export default App;
